@@ -1,0 +1,60 @@
+.servicesContent{
+    display:grid;
+    grid-template-areas: 'sechead sechead servmod1 servmod1 servmod1 servmod1 servmod1 servmod1 servmod1 servmod1 servmod1'
+                         'sechead sechead servmod2 servmod2 servmod2 servmod2 servmod2 servmod2 servmod2 servmod2 servmod2'
+                         'sechead sechead servmod3 servmod3 servmod3 servmod3 servmod3 servmod3 servmod3 servmod3 servmod3';
+
+    padding-top:20px;
+}
+
+.section_header{
+    grid-area: sechead;
+    text-align: start;
+}
+
+.serviceModule{
+    display:flex;
+    text-align: start;
+    padding:30px 0px;
+    justify-content: space-between;
+    grid-area: servmod1;
+}
+
+.mod1{
+    grid-area: servmod1;
+}
+
+.mod2{
+    grid-area: servmod2;
+}
+
+.mod3{
+    grid-area: servmod3;
+}
+
+@media screen and (max-width:799px){
+    .serviceModule{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .servicesContent{
+        grid-template-areas: 'sechead'
+                             'servmod1'
+                             'servmod2'
+                             'servmod3';
+    }
+
+}
+
+@media screen and (min-width:800px) and (max-width:1199px){
+    .servicesContent{
+        display:grid;
+        grid-template-areas: 'sechead sechead sechead sechead'
+                             'servmod1 servmod1 servmod1 servmod1'
+                             'servmod2 servmod2 servmod2 servmod2'
+                             'servmod3 servmod3 servmod3 servmod3';
+    }
+}

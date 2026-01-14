@@ -1,0 +1,64 @@
+.head{
+    text-align: start;
+}
+
+.AuthorInformation{
+    display:flex;
+    align-items: start;
+    text-align: start;
+    gap: 20px;
+    text-align: start;
+}
+
+.authorImage{
+    padding:10px;
+}
+
+.upImage{
+    display: flex;
+    grid-area:ui1;
+}
+
+.capped{
+    text-align: start;
+    grid-area:cap;
+    
+}
+
+.gr1{
+    grid-area:gr1;
+    text-align: start;
+}
+
+.ui1{
+    grid-area:ui1;
+    gap:20px;
+}
+
+.journey{
+    grid-area:journey;
+    text-align: start;
+}
+
+.container{
+    display:grid;
+    grid-template-areas: 'cap rc rc rc rc rc rc rc rc rc rc rc'
+                        ' cap gr1 gr1 gr1 gr1 gr1 gr1 gr1 gr1 gr1 gr1 gr1'
+                        ' cap ui1 ui1 ui1 ui1 ui1 ui1 ui1 ui1 ui1 ui1 ui1'
+                        ' cap journey journey journey journey journey journey journey journey journey journey journey';
+}
+
+.rightColumnContainer{
+    grid-area:rc;
+
+}
+
+.nice{
+    padding-left: 40px;
+    background-color: yellow;
+    margin: 20px;
+}
+
+.boom{
+    text-align: start;
+}
