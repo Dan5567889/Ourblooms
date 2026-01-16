@@ -1,4 +1,4 @@
-import Footer from "../components/footer";
+import Footer from "../components/Footer.jsx";
 import styles from "../styles/About.module.css";
 import lady from "../assets/AboutPage/lady.png";
 import lady1 from "../assets/AboutPage/lady-1.png";

@@ -10,7 +10,7 @@ import g5 from '../assets/gallery/Image-4.png'
 import g6 from '../assets/gallery/Image-5.png'
 import g7 from '../assets/gallery/Image-6.png'
 import g8 from '../assets/gallery/Image.png'
-import Footer from "../components/footer";
+import Footer from "../components/Footer.jsx";
 import WorkWithUs from "../components/WorkWithUs";
 import Services from "../components/Services";
 
